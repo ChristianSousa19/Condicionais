@@ -2,7 +2,6 @@ import random
 import time
 itens=("pedra","papel","tesoura")
 computador=random.randint(0,2)
-print("o computador escolheu {}".format(itens[computador]))
 print('''Suas opções
 [0] PEDRA
 [1] PAPEL
