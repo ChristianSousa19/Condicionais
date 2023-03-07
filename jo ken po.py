@@ -14,8 +14,7 @@ if computador==0:
       print("EMPATE")
   elif jogador==2:
     print("JOGADOR VENCE")
-else:
-    print("\033[0:31mJogada inválida")
+
 
 if  computador==1:
     if jogador == 0:
@@ -25,8 +24,7 @@ if  computador==1:
     elif jogador==2:
          print("JOGADOR VENCE")
 
-    else:
-        print("\033[0:31mJogada inválida")
+    
 elif computador==2:
     if jogador == 0:
         print("JOGADOR VENCE")
@@ -34,6 +32,5 @@ elif computador==2:
         print("COMPUTADOR VENCE")
     elif jogador==2:
         print("EMPATE")
-    else:
-      print("\033[0:31mJogada inválida")
+   
 
